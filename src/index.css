@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.custom_button {
+  transition: 0.3s ease all;
+}
+
+.custom_button:active {
+  height: 9.5rem;
+  width: 9.5rem;
+}
